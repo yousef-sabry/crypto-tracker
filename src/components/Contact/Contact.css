@@ -1,0 +1,87 @@
+.contact-section {
+background: linear-gradient(135deg, #0f172a 50%, #1e3a8a 80%, #facc15);
+color: #FACC15;
+  min-height: 100vh;
+  
+  margin-top: 60px;
+}
+
+.section-subtitle {
+  color: #1E3A8A;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.section-title {
+  color: #EAB308;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-img {
+  width: 180px;
+  transition: transform 0.4s ease;
+}
+
+.contact-img:hover {
+  transform: scale(1.05);
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #EAB308
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #EAB308;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #E2E8F0;
+}
+
+.contact-card {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.custom-input {
+  border-radius: 12px;
+  border: 2px solid #E2E8F0;
+  transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+  border-color: #EAB308;
+  box-shadow: 0 0 10px rgba(250, 204, 21, 0.3);
+}
+.cc{
+    color: #EAB308 !important;
+}
+.send-btn {
+  background-color: #EAB308;
+  border: none;
+  color: #0F172A;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.send-btn:hover {
+  background-color: #1E3A8A;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .contact-img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+}

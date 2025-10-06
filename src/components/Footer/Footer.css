@@ -1,0 +1,46 @@
+.footer {
+  background-color: #1e40af; /* الأزرق الأساسي */
+  color: #f8fafc;
+  padding: 10px 0; /* رفيع */
+  font-size: 14px;
+}
+
+.footer-text {
+  margin: 0;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.footer-icon {
+  color: #f8fafc;
+  font-size: 18px;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #facc15; /* لون ثانوي عند الهوفر */
+}
+.text55{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #f8fafc;
+  margin-left: 80px;
+}
+
+/* 📱 الموبايل */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .footer-icon {
+    margin: 0 8px;
+    font-size: 20px;
+  }
+  .text55{
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
+}

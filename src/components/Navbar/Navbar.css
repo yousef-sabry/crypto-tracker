@@ -1,0 +1,94 @@
+/* 🌑 الأساس */
+.custom-navbar {
+  background-color: #0f172a;
+  padding: 0.8rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+}
+
+.text-gold {
+  color: #facc15 !important;
+  
+}
+
+.text-secondary {
+  color: #1e3a8a !important;
+}
+
+.nav-link {
+  color: #e2e8f0 !important;
+  margin: 0 8px;
+  
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #facc15 !important;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  filter: invert(90%);
+}
+
+.custom-search {
+  max-width: 250px;
+  border-radius: 25px;
+  border: 1px solid #facc15;
+  padding: 0.4rem 0.8rem;
+  background-color: #e2e8f0;
+}
+
+/* 🧩 الترتيب في الشاشات الكبيرة */
+.navbar-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.extra-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* 📱 وضع الهاتف */
+@media (max-width: 991px) {
+  .navbar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .extra-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+  }
+
+  .custom-search {
+    width: 80%;
+    margin-bottom: 8px;
+  }
+
+  .time-date {
+    font-size: 0.9rem;
+  }
+}

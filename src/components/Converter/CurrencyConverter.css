@@ -1,0 +1,40 @@
+.section-home{
+    background: linear-gradient(135deg, #0f172a 50%, #1e3a8a) !important;
+    
+}
+.converter-container{
+    height: auto !important;
+   
+}
+.card{
+    margin-bottom: 250px;
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 15px !important;
+    height: auto !important;
+}
+
+.converter-section {
+  min-height: 100vh; /* تاخد ارتفاع الشاشة كله */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px; /* عشان النافبار الثابت */
+  background-color: #0f172a; /* لو عايز خلفية لطيفة */
+}
+
+.custom-card {
+  background-color: #1e3a8a;
+  border: none;
+  border-radius: 1rem;
+  color: #f1f5f9;
+}
+
+
+
+@media (max-width: 768px) {
+  .custom-card {
+    height: auto !important; /* على الشاشات الصغيرة، خلي الطول تلقائي */
+  }
+
+}

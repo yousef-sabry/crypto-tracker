@@ -1,0 +1,127 @@
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 50%, #1e3a8a);
+  color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.hero-container {
+  max-width: 1200px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin: 20px 0 30px;
+  color: #cbd5e1;
+}
+
+.btn-hero {
+  background-color: #facc15;
+  color: #0f172a;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-hero:hover {
+  background-color: #eab308;
+  color: #fff;
+  transform: translateY(-3px);
+}
+.social-icons{
+    font-size: 1.9rem !important;
+    color: #facc15 !important;
+}
+
+/* 💰 الكروت */
+.hero-cards {
+  gap: 20px;
+}
+
+.info-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.info-card h4 {
+  color: #facc15;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.info-card p {
+  color: #e2e8f0;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.footer {
+  background-color: #1e3a8a; /* dark blue */
+  color: #facc15; /* gold */
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #facc15;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer-social {
+  margin-top: 5px;
+}
+
+
+/* 🌐 Responsive */
+@media (max-width: 992px) {
+  .hero-section {
+    padding: 5px 20px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2.3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-cards {
+    margin-top: 40px;
+    gap: 15px;
+  }
+
+  .info-card {
+    width: 80%;
+  }
+  .social-icons{
+    font-size: 1.5rem !important;
+    margin-bottom: 20px;
+}
+}
